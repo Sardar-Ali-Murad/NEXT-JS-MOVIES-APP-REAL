@@ -1,0 +1,43 @@
+
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+  .Image{
+    border: 2px solid red;
+    object-fit: contain;
+  }
+  .text{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.text h5{
+      font-weight: bold;
+    color: white;
+    font-family: 'Rubik Bubbles', cursive;
+  }
+  
+  .text p{
+    font-family: 'Rubik Bubbles', cursive;
+    text-shadow: 2px 2px 2px black;
+  }
+  
+  .picks{
+    font-family: 'Rubik Bubbles', cursive;
+  }
+  

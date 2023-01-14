@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Cedarville+Cursive&family=Cormorant+Garamond:wght@300&family=Handlee&family=Open+Sans:wght@300&family=Oswald&family=Roboto&family=Rubik+Bubbles&display=swap');
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiperSlide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  
+  .swiperSlide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .Image{
+    border: 2px solid red;
+    object-fit: contain;
+  }
+  .text{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.text h5{
+      font-weight: bold;
+    color: white;
+    font-family: 'Rubik Bubbles', cursive;
+  }
+  
+  .text p{
+    /* text-shadow: 2px 2px 2px aliceblue; */
+    font-family: 'Rubik Bubbles', cursive;
+    text-shadow: 2px 2px 2px black;
+  }
+  
+  .picks{
+    font-family: 'Rubik Bubbles', cursive;
+  }
+
+  @media screen and (max-width:900px){
+    .InfoMain{
+      grid-template-columns: 1fr;
+    }
+  }

@@ -1,0 +1,17 @@
+.singleComment{  
+    counter-reset: counter-name;
+}
+.singleComment p::before{
+    content: open-quote;
+    font-family: initial;
+    font-size: 30px;
+}
+.singleComment p::after{
+    content: close-quote;
+    font-family: initial;
+    font-size: 30px;
+}
+
+.commments{
+    font-family: 'Rubik Bubbles', cursive;
+}
